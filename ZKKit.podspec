@@ -15,11 +15,11 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
 
-  spec.platform     = :ios, "7.0"
+  spec.platform     = :ios, "9.0"
 
   spec.source       = { :git => "https://github.com/kayynlyxy/ZKKit.git", :tag => "1.0.0"}
 
-  # spec.source_files  = "ZKKit/**/*.{h,m}"
+  spec.source_files  = "ZKKit/**/*.{h,m}"
 
   spec.requires_arc = true
 

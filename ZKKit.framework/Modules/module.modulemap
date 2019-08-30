@@ -1,6 +1,0 @@
-framework module ZKKit {
-  umbrella header "ZKKit.h"
-
-  export *
-  module * { export * }
-}
